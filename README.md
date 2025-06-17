@@ -75,6 +75,10 @@ SkinVisionAI/
 
 
 
+
+
+
+
 🧪 **Technologies Used**
 Python, Flask – backend and server
 
