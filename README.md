@@ -12,6 +12,7 @@ SkinVisionAI is an AI-powered skin analysis web application that detects common 
 ✨ Intuitive frontend built with HTML, CSS, and JavaScript
 
 🔒 Image is not stored permanently—ensuring user privacy
+
 ---
 
 ## 📁 Project Structure
