@@ -23,29 +23,53 @@ SkinVisionAI/
 ├── app.py                  # Flask backend server
 
 ├── train_model.py          # CNN model training and prediction script
+
 ├── README.md               # Project overview
+
 ├── .gitignore
+
 │
+
 ├── static/                 # Frontend static files
+
 │   ├── script.js
+
 │   └── styles.css
+
 │
+
 ├── templates/              # HTML frontend
+
 │   └── index.html
+
 │
+
 ├── minor/                  # Dataset directory
+
 │   ├── train/              # Training images
+
 │   │   ├── acne/
+
 │   │   ├── acnescars/
+
 │   │   ├── dark_circles/
+
 │   │   ├── openpores/
+
 │   │   └── pigmentation/
+
 │   └── validation/         # Validation images
+
 │       ├── acne/
+
 │       ├── acnescars/
+
 │       ├── dark_circles/
+
 │       ├── openpores/
+
 │       └── pigmentation/
+
 
 
 
