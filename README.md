@@ -32,43 +32,43 @@ SkinVisionAI/
 
 ├── static/                 # Frontend static files
 
-│   ├── script.js
+│  ├── script.js
 
-│   └── styles.css
+│  └── styles.css
 
 │
 
 ├── templates/              # HTML frontend
 
-│   └── index.html
+│  └── index.html
 
 │
 
 ├── minor/                  # Dataset directory
 
-│   ├── train/              # Training images
+│  ├── train/              # Training images
 
-│   │   ├── acne/
+│  │  ├── acne/
 
-│   │   ├── acnescars/
+│  │  ├── acnescars/
 
-│   │   ├── dark_circles/
+│  │  ├── dark_circles/
 
-│   │   ├── openpores/
+│  │  ├── openpores/
 
-│   │   └── pigmentation/
+│  │  └── pigmentation/
 
-│   └── validation/         # Validation images
+│  └── validation/         # Validation images
 
-│       ├── acne/
+│  ├── acne/
 
-│       ├── acnescars/
+│  ├── acnescars/
 
-│       ├── dark_circles/
+│  ├── dark_circles/
 
-│       ├── openpores/
+│  ├── openpores/
 
-│       └── pigmentation/
+│   └── pigmentation/
 
 
 
