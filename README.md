@@ -17,8 +17,11 @@ SkinVisionAI is an AI-powered skin analysis web application that detects common 
 
 ## 📁 Project Structure
 SkinVisionAI/
+
 │
+
 ├── app.py                  # Flask backend server
+
 ├── train_model.py          # CNN model training and prediction script
 ├── README.md               # Project overview
 ├── .gitignore
