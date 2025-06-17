@@ -4,9 +4,13 @@ SkinVisionAI is an AI-powered skin analysis web application that detects common 
 
 🚀 Features
 📷 Real-time or uploaded selfie skin concern detection
+
 🧠 CNN model for classifying 5 types of skin concerns
+
 💡 Skincare recommendations based on predictions
+
 ✨ Intuitive frontend built with HTML, CSS, and JavaScript
+
 🔒 Image is not stored permanently—ensuring user privacy
 ---
 
