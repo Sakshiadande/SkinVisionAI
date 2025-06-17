@@ -60,15 +60,15 @@ SkinVisionAI/
 
 │  └── validation/         # Validation images
 
-│ └── acne/
+│ │ └── acne/
 
-│ └── acnescars/
+│ │ └── acnescars/
 
-│ └── dark_circles/
+│ │ └── dark_circles/
 
-│ └── openpores/
+│ │ └── openpores/
 
-│ └── pigmentation/
+│ │ └── pigmentation/
 
 
 
