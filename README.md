@@ -48,7 +48,7 @@ SkinVisionAI/
 
 
 
-🧪 Technologies Used
+🧪 **Technologies Used**
 Python, Flask – backend and server
 
 TensorFlow / Keras – model development
