@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+#app {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;  /* Allow vertical scrolling if content overflows */
+    max-height: 90vh;  /* Constrain height within viewport */
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+/* General Styles for Screens */
+.screen {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.screen.active {
+    display: block;
+}
+
+h1, h2 {
+    color: #ff6f91;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Improves text contrast */
+}
+
+/* Button Styling */
+button {
+    background-color: #ff6f91;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: scale(1.05); /* Slightly increase the scale on hover */
+    background-color: #ff4081; /* Add a stronger color change */
+}
+
+
+button:focus {
+    outline: 3px solid #ff4081;  /* Accessible focus state */
+}
+
+button.selected {
+    background-color: #ff4081;
+    border: 2px solid #ff6f91;
+}
+
+/* Input Styling */
+input, select {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff6f91;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+#camera {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#captured-image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    #app {
+        max-width: 600px;
+    }
+}
+
+#skincare-tips-screen ul li:before {
+    content: '✔'; /* Adds a checkmark before each tip */
+    color: #ff6f91;
+    font-weight: bold;
+    margin-right: 20px;
+    padding : 0;
+    text-align : left;
+
+
+}
+
+#skincare-tips-screen li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+#skincare-tips-screen button {
+    margin-top: 20px;
+}
+
+body {
+    transition: background-image 0.5s ease-in-out; /* Increase the delay */
+}
+
+
+
+
